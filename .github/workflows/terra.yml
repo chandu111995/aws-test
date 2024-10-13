@@ -3,7 +3,7 @@ name: Terraform CI
 on:
   push:
     branches:
-      - "test-1"
+      - "branch1"
   pull_request:
     branches:
       - "main" 
