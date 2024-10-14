@@ -9,6 +9,7 @@ on:
       - "main" 
     paths:
       - ".github/workflows/test.yaml"
+  workflow_dispatch:  # This enables manual triggering of the workflow
 
 jobs:
   terraform:
